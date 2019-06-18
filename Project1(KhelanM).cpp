@@ -130,7 +130,7 @@ int main() // MAIN starts
 		}
 
 		else {
-			cout << "\a\tInvalid Command. (Press the h for help)\n\t "; // the error message command, prompts the user to press the correct command
+			cout << "\a\tInvalid Command. (Press the h command for help)\n\t "; // the error message command, prompts the user to press the correct command
 		}
 	}
 	system("pause"); // Halting the screen 
@@ -145,9 +145,9 @@ void printCommandHelpMenu() { // prints the Command Help Menu on the screen
 		<< "\t\t B or b \t Brake.\n"
 		<< "\t\t C or c \t Cruise. \n"
 		<< "\t\t D or d \t Demo. \n"
-		<< "\t\t H or h \t print this help text\n"
-		<< "\t\t T or t \t Change the Time interval\n"
-		<< "\t\t R or r \t Change the value of Delta\n"
+		<< "\t\t H or h \t Print this help text.\n"
+		<< "\t\t T or t \t Change the Time interval.\n"
+		<< "\t\t R or r \t Change the value of Delta.\n"
 		<< "\t\t Q or e \t Quit (End this Program).\n\n";
 }
 
